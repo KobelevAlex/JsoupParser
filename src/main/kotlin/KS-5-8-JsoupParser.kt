@@ -13,7 +13,8 @@ fun main() {
     val quotes: Elements = doc.select(selectForQuotes)
 
     for (quote in quotes) {
-        println(quote.text()
+        println(
+            quote.text()
         )
     }
 }
